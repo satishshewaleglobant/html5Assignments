@@ -1,0 +1,22 @@
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+
+
+table {
+  width: "100%"
+}
+span.block {
+    display:block;
+}
