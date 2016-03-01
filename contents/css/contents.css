@@ -10,13 +10,45 @@ aside {
 }
 
 tr.border_bottom td {
-  border-bottom:1pt solid black;
+  border-bottom:1pt dashed black;
 }
 
-
-table {
-  width: "100%"
+footer {
+  background-color: #5B6569
 }
-span.block {
+footer table {
+  width: 100%;
+}
+
+footer  span{
     display:block;
+}
+footer table th {
+  text-align: left;
+  color: #FFFFFF
+}
+figcaption {
+  text-align: center;
+}
+div.caption{
+  display: inline-block;
+}
+
+figure{
+  float: left;
+}
+
+ul
+{
+  list-style-type: none;
+}
+aside li {
+  border-bottom:1pt dashed black;
+}
+
+footer div {
+  display: inline-block;
+}
+footer ul {
+  float: left;
 }
